@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 
-from app.nc_tutorials.settings import STATIC_ROOT
+# from app.nc_tutorials.settings import STATIC_ROOT
 
 urlpatterns = [
     path('admin/', admin.site.urls),
